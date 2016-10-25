@@ -1,6 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+    	OptionsMenu options = new OptionsMenu();
+    	options.displayOptions();
+    	options.handleChoice(options.getUserInput());
+    	
+    	
+   
     }
 }
